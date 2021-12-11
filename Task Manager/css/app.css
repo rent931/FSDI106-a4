@@ -1,0 +1,141 @@
+
+
+html, body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+body{
+    background-image: url(https://envato-shoebox-0.imgix.net/c7c3/887c-679e-4907-a12c-6a09330a045e/IMG_4202_.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=51ce465e174e7270b9e95fc506e48a31);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(5, 63, 44);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 100px;
+}
+
+section {
+    flex: 2;
+    border: solid 1px blue;
+}
+
+.section-list{
+    flex: 5;
+    border: solid 2px grey;
+    background-color: honeydew;
+}
+
+.section-form {
+    flex: 3;
+    border: solid 2px gray;
+    background-color:honeydew;
+}
+
+.my-control{
+    display: block;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+}
+
+.my-control label{
+    display: block;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.priority-icon{
+    font-size: 30px;
+    cursor: pointer;
+
+
+}
+
+#iPriority.far {
+    color: blue;
+}
+
+#iPriority.fas{
+    color: red;
+}
+
+.task {
+    border: 1px solid grey;
+    display: flex;
+    margin-bottom: 12px;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 1px;
+    cursor: pointer;
+    position: relative;
+}
+
+.task-list{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.task:hover {
+    border: solid 5px green;
+}
+
+.task i {
+    flex: 1;
+    font-size: 25px;
+}
+
+.task .info{
+    flex: 6;
+}
+
+.task .info p{
+    margin-bottom: 0;
+}
+
+.task .details {
+    flex: 2;
+}
+
+.task .status{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    color: grey;
+}
+
+.task .category {
+    display: block;
+}
+
+.btn-info {
+    border-radius: 12px;
+    background-color:rgb(24, 207, 146);
+}
+.btn-save{
+    border-radius: 12px;
+    background-color: rgb(24, 207, 146);
+}
+
+#selColor{
+    width: 100px;
+    height: 50px;
+    border: solid 1px grey;
+}
+#lblCount{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    
+}
